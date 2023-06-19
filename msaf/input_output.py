@@ -37,7 +37,7 @@ class FileStruct:
 
     def _get_dataset_file(self, dir, ext):
         """Gets the desired dataset file."""
-        audio_file_ext = "." + self.audio_file.split(".")[-1]
+        _, audio_file_ext = os.path.splitext(self.audio_file)
         base_file = os.path.basename(self.audio_file).replace(
             audio_file_ext, ext)
         return os.path.join(self.ds_path, dir, base_file)
