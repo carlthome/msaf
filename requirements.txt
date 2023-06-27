@@ -7,7 +7,7 @@ librosa==0.6.1
 llvmlite==0.32.1
 six==1.11.0
 numpy==1.19.5
-matplotlib==3.3.4
+matplotlib==3.7.1
 scikit_learn==0.19.1
 numpydoc==0.8.0
 sphinx-rtd-theme==0.2.4
