@@ -1,4 +1,4 @@
-jams==0.3.2
+jams==0.3.4
 joblib==0.11
 scipy==1.1.0
 mir_eval==0.4
